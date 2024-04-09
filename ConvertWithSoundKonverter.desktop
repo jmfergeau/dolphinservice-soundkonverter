@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+MimeType=audio/*;
+Actions=ConvertWithSoundKonverter
+ServiceTypes=KonqPopupMenu/Plugin
+
+[Desktop Action ConvertWithSoundKonverter]
+Name=Convert with SoundKonverter
+Name[fr]=Convertir avec SoundKonverter
+Icon=soundkonverter
+Exec=soundkonverter %u
